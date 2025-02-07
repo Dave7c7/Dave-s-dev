@@ -8,26 +8,32 @@ body{
     background-image: url("faded-office.png");
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
 
 }
 #main{
     text-align: left;
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    height: 800px;
     margin: 30px;
 }
 .Content{
     padding: 40px;
 }
 #title{
-    font-size: 20rem;
+    font-size: calc(3vw + 3vh);
     font-weight: 800;    
+}
+p{
+    font-size: calc(2vw + 1vh);
 }
 #btn-chat{
     font-family: inherit;
     background: #0ea5e9;
     color: aliceblue;
     border: none;
-    padding: 15px 20px;
+    font-size: calc(2vw + 1vh);  
+    padding: calc(1vw + 0.5vh) calc(2vw + 1vh);  
 }
